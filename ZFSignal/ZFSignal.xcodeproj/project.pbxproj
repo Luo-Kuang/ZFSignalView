@@ -64,6 +64,7 @@
 		7D900228204D23F100FA2323 /* ZFSignal */ = {
 			isa = PBXGroup;
 			children = (
+				7D900248204D545600FA2323 /* ZFSignalView */,
 				7D900229204D23F100FA2323 /* AppDelegate.h */,
 				7D90022A204D23F100FA2323 /* AppDelegate.m */,
 				7D90022C204D23F100FA2323 /* ViewController.h */,
@@ -73,12 +74,19 @@
 				7D900234204D23F100FA2323 /* LaunchScreen.storyboard */,
 				7D900237204D23F100FA2323 /* Info.plist */,
 				7D900238204D23F100FA2323 /* main.m */,
+			);
+			path = ZFSignal;
+			sourceTree = "<group>";
+		};
+		7D900248204D545600FA2323 /* ZFSignalView */ = {
+			isa = PBXGroup;
+			children = (
 				7D900242204D253C00FA2323 /* ZFSignalView.h */,
 				7D900243204D253C00FA2323 /* ZFSignalView.m */,
 				7D900245204D396800FA2323 /* ZFSignalLineV.h */,
 				7D900246204D396800FA2323 /* ZFSignalLineV.m */,
 			);
-			path = ZFSignal;
+			path = ZFSignalView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
