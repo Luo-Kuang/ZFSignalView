@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D90022B204D23F100FA2323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D90022A204D23F100FA2323 /* AppDelegate.m */; };
+		7D90022E204D23F100FA2323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D90022D204D23F100FA2323 /* ViewController.m */; };
+		7D900231204D23F100FA2323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D90022F204D23F100FA2323 /* Main.storyboard */; };
+		7D900233204D23F100FA2323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D900232204D23F100FA2323 /* Assets.xcassets */; };
+		7D900236204D23F100FA2323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D900234204D23F100FA2323 /* LaunchScreen.storyboard */; };
+		7D900239204D23F100FA2323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D900238204D23F100FA2323 /* main.m */; };
+		7D900244204D253C00FA2323 /* ZFSignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D900243204D253C00FA2323 /* ZFSignalView.m */; };
+		7D900247204D396800FA2323 /* ZFSignalLineV.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D900246204D396800FA2323 /* ZFSignalLineV.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D900226204D23F100FA2323 /* ZFSignal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFSignal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D900229204D23F100FA2323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D90022A204D23F100FA2323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D90022C204D23F100FA2323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D90022D204D23F100FA2323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D900230204D23F100FA2323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D900232204D23F100FA2323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D900235204D23F100FA2323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D900237204D23F100FA2323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D900238204D23F100FA2323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D900242204D253C00FA2323 /* ZFSignalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSignalView.h; sourceTree = "<group>"; };
+		7D900243204D253C00FA2323 /* ZFSignalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSignalView.m; sourceTree = "<group>"; };
+		7D900245204D396800FA2323 /* ZFSignalLineV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZFSignalLineV.h; sourceTree = "<group>"; };
+		7D900246204D396800FA2323 /* ZFSignalLineV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFSignalLineV.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D900223204D23F100FA2323 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D90021D204D23F100FA2323 = {
+			isa = PBXGroup;
+			children = (
+				7D900228204D23F100FA2323 /* ZFSignal */,
+				7D900227204D23F100FA2323 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D900227204D23F100FA2323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D900226204D23F100FA2323 /* ZFSignal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D900228204D23F100FA2323 /* ZFSignal */ = {
+			isa = PBXGroup;
+			children = (
+				7D900229204D23F100FA2323 /* AppDelegate.h */,
+				7D90022A204D23F100FA2323 /* AppDelegate.m */,
+				7D90022C204D23F100FA2323 /* ViewController.h */,
+				7D90022D204D23F100FA2323 /* ViewController.m */,
+				7D90022F204D23F100FA2323 /* Main.storyboard */,
+				7D900232204D23F100FA2323 /* Assets.xcassets */,
+				7D900234204D23F100FA2323 /* LaunchScreen.storyboard */,
+				7D900237204D23F100FA2323 /* Info.plist */,
+				7D900238204D23F100FA2323 /* main.m */,
+				7D900242204D253C00FA2323 /* ZFSignalView.h */,
+				7D900243204D253C00FA2323 /* ZFSignalView.m */,
+				7D900245204D396800FA2323 /* ZFSignalLineV.h */,
+				7D900246204D396800FA2323 /* ZFSignalLineV.m */,
+			);
+			path = ZFSignal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D900225204D23F100FA2323 /* ZFSignal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D90023C204D23F100FA2323 /* Build configuration list for PBXNativeTarget "ZFSignal" */;
+			buildPhases = (
+				7D900222204D23F100FA2323 /* Sources */,
+				7D900223204D23F100FA2323 /* Frameworks */,
+				7D900224204D23F100FA2323 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFSignal;
+			productName = ZFSignal;
+			productReference = 7D900226204D23F100FA2323 /* ZFSignal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D90021E204D23F100FA2323 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "张帆";
+				TargetAttributes = {
+					7D900225204D23F100FA2323 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D900221204D23F100FA2323 /* Build configuration list for PBXProject "ZFSignal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D90021D204D23F100FA2323;
+			productRefGroup = 7D900227204D23F100FA2323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D900225204D23F100FA2323 /* ZFSignal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D900224204D23F100FA2323 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D900236204D23F100FA2323 /* LaunchScreen.storyboard in Resources */,
+				7D900233204D23F100FA2323 /* Assets.xcassets in Resources */,
+				7D900231204D23F100FA2323 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D900222204D23F100FA2323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D90022E204D23F100FA2323 /* ViewController.m in Sources */,
+				7D900247204D396800FA2323 /* ZFSignalLineV.m in Sources */,
+				7D900239204D23F100FA2323 /* main.m in Sources */,
+				7D900244204D253C00FA2323 /* ZFSignalView.m in Sources */,
+				7D90022B204D23F100FA2323 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D90022F204D23F100FA2323 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D900230204D23F100FA2323 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D900234204D23F100FA2323 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D900235204D23F100FA2323 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D90023A204D23F100FA2323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D90023B204D23F100FA2323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D90023D204D23F100FA2323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKSMCG74N6;
+				INFOPLIST_FILE = ZFSignal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zf.ZFSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D90023E204D23F100FA2323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKSMCG74N6;
+				INFOPLIST_FILE = ZFSignal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zf.ZFSignal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D900221204D23F100FA2323 /* Build configuration list for PBXProject "ZFSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D90023A204D23F100FA2323 /* Debug */,
+				7D90023B204D23F100FA2323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D90023C204D23F100FA2323 /* Build configuration list for PBXNativeTarget "ZFSignal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D90023D204D23F100FA2323 /* Debug */,
+				7D90023E204D23F100FA2323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D90021E204D23F100FA2323 /* Project object */;
+}
